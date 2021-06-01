@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\ImageUploadController;
-use App\Http\Controllers\TestUploadController;
 use Illuminate\Support\Facades\Route;
 
 /*
