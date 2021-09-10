@@ -59,9 +59,7 @@
 
     // Handle multiple fileuploads
     document.getElementById("images").addEventListener("change", function(ev){
-        $("#images").rules("add", {
-            accept: "jpg|jpeg|png|ico|bmp"
-        });
+
         let files = ev.currentTarget.files;
         let readers = [];
         console.log(files);
